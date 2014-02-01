@@ -21,8 +21,8 @@ test('TCP listen works (echo test)', function (t) {
       })
     })
 
-    testStatus.on('connection', function (message, remote) {
-      conn.on('data', function () {
+    testStatus.on('connection', function (conn) {
+      conn.on('data', function (data) {
         t.equal(data.toString(), 'pass')
         testStatus.close()
         child.kill()

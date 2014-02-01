@@ -20,27 +20,18 @@ function createServers (callback) {
 }
 
 createServers(function (err) {
-  assert.ifError(err)
+  if (err) throw err
 
   portfinder.getPort(function (err, port) {
-    console.log(err, port)
-
     if (err) throw err
     if (port !== 8005) throw new Error('port should be 8005')
 
-    try {
-      var statusSocket = net.connect(STATUS_PORT, function () {
-        console.log('connect')
-        statusSocket.write('pass')
-      })
+    var statusSocket = net.connect(STATUS_PORT, function () {
+      statusSocket.write('pass')
+    })
 
-      statusSock.on('error', function (err) {
-        console.error(err.stack)
-      })
-    } catch (e) {
-      console.error(e.message)
-    }
-
-      console.log('inside get port', STATUS_PORT)
+    statusSocket.on('error', function (err) {
+      console.error(err.stack)
+    })
   })
 })
