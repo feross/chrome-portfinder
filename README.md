@@ -36,7 +36,7 @@ By default `portfinder` will start searching from `8000`. To change this simply 
 
 ## contribute
 
-To run tests, use `npm test`. The tests will run TCP and UDP servers and launch a few different Chrome Packaged Apps with browserified client code. The tests currently require Chrome Canary on Mac. If you're on Windows or Linux, feel free to send a pull request to fix this limitation.
+To run tests, use `npm test`. The tests will run TCP servers and launch a few different Chrome Packaged Apps with browserified client code. The tests currently assume you have Chrome Canary on Mac. If you're on Windows or Linux, feel free to send a pull request to fix this limitation.
 
 ## license
 
