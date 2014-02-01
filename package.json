@@ -1,0 +1,41 @@
+{
+  "name": "chrome-portfinder",
+  "version": "0.1.0",
+  "description": "Find an open port on the current machine (for Chrome apps)",
+  "homepage": "http://webtorrent.io",
+  "main": "index.js",
+  "dependencies": {
+    "mkdirp": "0.0.x"
+  },
+  "devDependencies": {
+    "async": "0.1.x",
+    "vows": "0.5.x"
+  },
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "browser": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/chrome-portfinder.git"
+  },
+  "keywords": [
+    "port",
+    "ports",
+    "portfinder",
+    "find open port",
+    "open ports",
+    "tcp",
+    "http"
+  ],
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feross/chrome-portfinder/issues"
+  }
+}
