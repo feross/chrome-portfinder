@@ -21,14 +21,12 @@ exports.getPort = function (options, cb) {
   if (!options.server) options.server = net.createServer()
 
   function onListening () {
-    console.log('onListening')
     options.server.removeListener('error', onError)
     options.server.close()
     cb(null, options.port)
   }
 
   function onError (err) {
-    console.log('onError')
     options.server.removeListener('listening', onListening)
 
     if (err.message.indexOf('failed to listen') === -1) {
