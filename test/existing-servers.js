@@ -5,7 +5,7 @@ var test = require('tape')
 
 portfinder.basePort = 9000
 
-test('TCP listen works (echo test)', function (t) {
+test('With 5 existing servers, should return port 8005', function (t) {
   portfinder.getPort(function (err, statusPort) {
     t.error(err, 'Found free port for test status')
 
@@ -15,7 +15,7 @@ test('TCP listen works (echo test)', function (t) {
     testStatus.on('listening', function () {
       // Start app
       var env = { STATUS_PORT: statusPort }
-      helper.browserify('basic.js', env, function (err) {
+      helper.browserify('existing-servers.js', env, function (err) {
         t.error(err, 'Clean browserify build')
         child = helper.launchBrowser()
       })
