@@ -16,7 +16,7 @@
     "tape": "~2.4.0"
   },
   "scripts": {
-    "test": "vows test/*-test.js --spec"
+    "test": "tape test/*.js"
   },
   "browser": {
     "net": "./node_modules/chrome-net/index.js"
