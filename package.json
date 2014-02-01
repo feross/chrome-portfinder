@@ -5,11 +5,11 @@
   "homepage": "http://webtorrent.io",
   "main": "index.js",
   "dependencies": {
-    "mkdirp": "0.0.x"
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {
-    "async": "0.1.x",
-    "vows": "0.5.x"
+    "async": "~0.2.10",
+    "vows": "~0.7.x"
   },
   "scripts": {
     "test": "vows test/*-test.js --spec"
