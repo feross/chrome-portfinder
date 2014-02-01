@@ -1,6 +1,6 @@
 {
   "name": "chrome-portfinder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Find an open port on the current machine (for Chrome Apps)",
   "homepage": "http://webtorrent.io",
   "main": "index.js",
