@@ -9,13 +9,13 @@ var vows = require('vows'),
     assert = require('assert'),
     async = require('async'),
     http = require('http'),
-    portfinder = require('../lib/portfinder');
+    portfinder = require('../');
 
 var servers = [];
 
 function createServers (callback) {
   var base = 8000;
-  
+
   async.whilst(
     function () { return base < 8005 },
     function (next) {
@@ -50,7 +50,7 @@ vows.describe('portfinder').addBatch({
         servers.forEach(function (server) {
           server.close();
         });
-        
+
         return null;
       },
       "the getPort() method": {

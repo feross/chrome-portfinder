@@ -11,7 +11,7 @@ var assert = require('assert'),
     path = require('path'),
     async = require('async'),
     vows = require('vows'),
-    portfinder = require('../lib/portfinder');
+    portfinder = require('../');
 
 var servers = [],
     socketDir = path.join(__dirname, 'fixtures'),
@@ -19,13 +19,13 @@ var servers = [],
 
 function createServers (callback) {
   var base = 0;
-  
+
   async.whilst(
     function () { return base < 5 },
     function (next) {
       var server = net.createServer(function () { }),
           name = base === 0 ? 'test.sock' : 'test' + base + '.sock';
-      
+
       server.listen(path.join(socketDir, name), next);
       base++;
       servers.push(server);
