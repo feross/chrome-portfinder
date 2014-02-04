@@ -13,6 +13,9 @@
   "bugs": {
     "url": "https://github.com/feross/chrome-portfinder/issues"
   },
+  "bundledDependencies": [
+    "chrome-net"
+  ],
   "dependencies": {
     "chrome-net": "1.x"
   },
