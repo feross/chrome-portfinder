@@ -8,14 +8,11 @@
     "url": "http://feross.org/"
   },
   "browser": {
-    "net": "./node_modules/chrome-net/index.js"
+    "net": "chrome-net/index.js"
   },
   "bugs": {
     "url": "https://github.com/feross/chrome-portfinder/issues"
   },
-  "bundledDependencies": [
-    "chrome-net"
-  ],
   "dependencies": {
     "chrome-net": "1.x"
   },
