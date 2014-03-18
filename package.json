@@ -14,7 +14,7 @@
     "url": "https://github.com/feross/chrome-portfinder/issues"
   },
   "dependencies": {
-    "chrome-net": "1.x"
+    "chrome-net": "2.x"
   },
   "devDependencies": {
     "async": "~0.2.10",
