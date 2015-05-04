@@ -22,7 +22,7 @@
     "envify": "~1.0.1",
     "once": "~1.3.0",
     "portfinder": "~0.2.1",
-    "tape": "~2.4.0"
+    "tape": "^4.0.0"
   },
   "homepage": "http://webtorrent.io",
   "keywords": [
