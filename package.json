@@ -8,7 +8,7 @@
     "url": "http://feross.org/"
   },
   "browser": {
-    "net": "chrome-net/index.js"
+    "net": "./chrome-net/index.js"
   },
   "bugs": {
     "url": "https://github.com/feross/chrome-portfinder/issues"
