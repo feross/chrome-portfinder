@@ -1,4 +1,13 @@
-# chrome-portfinder [![npm](https://img.shields.io/npm/v/chrome-portfinder.svg)](https://npmjs.org/package/chrome-portfinder) [![downloads](https://img.shields.io/npm/dm/chrome-portfinder.svg)](https://npmjs.org/package/chrome-portfinder) [![gittip](https://img.shields.io/gittip/feross.svg)](https://www.gittip.com/feross/)
+# chrome-portfinder [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+
+[travis-image]: https://img.shields.io/travis/feross/chrome-portfinder/master.svg
+[travis-url]: https://travis-ci.org/feross/chrome-portfinder
+[npm-image]: https://img.shields.io/npm/v/chrome-portfinder.svg
+[npm-url]: https://npmjs.org/package/chrome-portfinder
+[downloads-image]: https://img.shields.io/npm/dm/chrome-portfinder.svg
+[downloads-url]: https://npmjs.org/package/chrome-portfinder
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
 
 ### Find an open port on the current machine (for Chrome Apps)
 
