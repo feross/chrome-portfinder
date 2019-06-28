@@ -1,4 +1,3 @@
-var async = require('async')
 var net = require('net')
 var portfinder = window.portfinder = require('../../')
 

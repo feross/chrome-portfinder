@@ -45,7 +45,6 @@ exports.getPort = function (options, cb) {
   options.server.listen(options.port, options.host)
 }
 
-
 /**
  * Gets the next port in sequence from the specified `port`.
  * @param {number}  port Port to increment from.
