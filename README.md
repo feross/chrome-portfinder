@@ -1,5 +1,7 @@
 # chrome-portfinder [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/chrome-portfinder.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/feross/chrome-portfinder/master.svg
 [travis-url]: https://travis-ci.org/feross/chrome-portfinder
 [npm-image]: https://img.shields.io/npm/v/chrome-portfinder.svg
