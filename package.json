@@ -1,7 +1,7 @@
 {
   "name": "chrome-portfinder",
   "description": "Find an open port on the current machine (for Chrome Apps)",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
