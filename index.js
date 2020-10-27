@@ -1,3 +1,4 @@
+/*! chrome-portfinder. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 var net = require('net')
 
 /**
