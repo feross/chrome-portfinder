@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "async": "^3.2.0",
-    "browserify": "^16.2.3",
+    "browserify": "^17.0.0",
     "envify": "^4.1.0",
     "once": "^1.4.0",
     "portfinder": "^1.0.28",
